@@ -1,52 +1,59 @@
-**ESTUDIO BDD**
-documentação de requisitos com apoio de IA
 
-Projeto acadêmico em Java.
+# 🚀 Estúdio BDD
 
-Danilo Gigliotti e Davi Portes
+Sistema de documentação de requisitos com apoio de Inteligência Artificial, desenvolvido para a disciplina de **Programação de Sistemas II**.
 
-<div align="center">
+## 🛠️ Tecnologias
+- Java 21
+- Spring Boot
+- Spring Data JPA
+- PostgreSQL
+- Maven
+- React (frontend planejado)
 
-<a href="https://herakles.dev">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/masthead-light.svg" />
-  <img src="assets/masthead.svg" alt="Michael Piscitelli — herakles.dev" width="100%" />
-</picture>
-</a>
+## 🎯 Funcionalidades
+- Cadastro de projetos e histórias de usuário.
+- Criação de cenários BDD (Dado, Quando, Então).
+- Registro e avaliação de sugestões de IA.
+- Exportação de cenários para arquivos `.feature`.
+- Consulta e resumo dos projetos.
 
-**documentação de requisitos com apoio de IA**
+## 📁 Estrutura do Projeto
 
+```text
+estudio-bdd/
+├── src/
+│   ├── main/
+│   │   ├── java/br/com/estudiobdd/
+│   │   │   ├── config/
+│   │   │   ├── model/
+│   │   │   ├── repository/
+│   │   │   ├── controller/  # Futuro
+│   │   │   ├── dto/         # Futuro
+│   │   │   └── service/     # Futuro
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
+├── docs/
+│   ├── diagrama-classes.md
+│   └── exemplo-bdd.feature
+├── AGENTS.md
+├── pom.xml
+└── README.md
+```
 
-<p>
-<a href="https://herakles.dev">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
-    <img src="assets/header.svg" alt="terminal: michael@herakles-dev" />
-  </picture>
-</a>
-</p>
+## 🏗️ Arquitetura
+Aplicação organizada em camadas:
+- **Controller:** recebe requisições HTTP.
+- **Service:** aplica as regras de negócio.
+- **Repository:** gerencia a persistência.
+- **Model:** representa as entidades do sistema.
+- **DTO:** define os dados de entrada e saída da API.
 
-<br />
+## 📌 Status do Projeto
+Fundação inicial criada, com entidades JPA, enums, repositórios e configuração do banco. As demais funcionalidades serão implementadas progressivamente.
 
-<p align="left">
-<!--START_SECTION:contribs-->
-2,969 contributions in the last year
-<!--END_SECTION:contribs-->
-</p>
-
-<p>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/herakles-dev/herakles-dev/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/herakles-dev/herakles-dev/output/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/herakles-dev/herakles-dev/output/pacman-contribution-graph.svg" />
-</picture>
-</p>
-
-</div>
-
-------
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/section-01-light.svg" />
-  <img src="assets/section-01.svg" alt="Live right now" width="100%" />
-</picture>
+## 🎓 Informações Acadêmicas
+- **Disciplina:** Programação de Sistemas II
+- **Período:** 2026/2
+- **Entrega prevista:** 17/11/2026
