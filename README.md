@@ -10,7 +10,7 @@ Danilo Gigliotti e Davi Portes
 <a href="https://herakles.dev">
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/masthead-light.svg" />
-  <img src="assets/masthead.svg" alt="ESTUDIO BDD" width="100%" />
+  <img src="assets/masthead.svg" alt="Michael Piscitelli — herakles.dev" width="100%" />
 </picture>
 </a>
 
