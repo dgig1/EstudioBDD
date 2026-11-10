@@ -1,0 +1,14 @@
+### Criar usuário
+POST http://localhost:8080/api/usuarios
+Content-Type: application/json
+
+{"nome":"Ana Analista","email":"ana@example.com"}
+
+### Criar projeto
+POST http://localhost:8080/api/projetos
+Content-Type: application/json
+
+{"nome":"Projeto demonstração","descricao":"Exemplo acadêmico","contextoDominio":"Requisitos BDD"}
+
+### Listar projetos
+GET http://localhost:8080/api/projetos
