@@ -1,4 +1,4 @@
-# Estúdio BDD — versão até a Semana 4
+# Estúdio BDD - v4.0
 
 Aplicação acadêmica para documentar requisitos com histórias de usuário, cenários BDD, registro/decisão humana de sugestões de IA e exportação Gherkin `.feature`.
 
