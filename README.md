@@ -6,9 +6,6 @@
 **Ano:** 2026/2  
 **Entrega:** 17/11/2026
 
-**Danilo Gigliotti RA 10443431**
-**Davi Portes RA 10417139** 
-
 ## 1. Sobre o projeto
 
 O Estúdio BDD é uma aplicação web desenvolvida para organizar requisitos de software por meio de histórias de usuário e cenários BDD (Behavior Driven Development).
