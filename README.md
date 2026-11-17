@@ -183,8 +183,7 @@ O projeto demonstra a utilização de tecnologias modernas no desenvolvimento de
 ---
 
 **Integrantes:**  
-- [Nome do integrante 1]
-- [Nome do integrante 2]
-- [Nome do integrante 3]
+- Danilo Gigliotti RA 10443431
+- Davi Portes RA 10417139
 
-**Repositório:** [Inserir link do GitHub]
+**Repositório:** (https://github.com/dgig1/EstudioBDD)
