@@ -144,7 +144,37 @@ Os materiais complementares do projeto devem ser disponibilizados na pasta `docs
 - Roteiro e evidências de testes.
 - Exemplo de arquivo `.feature` exportado.
 
-## 9. Considerações finais
+## 9. Utilização de Inteligência Artificial
+
+A Inteligência Artificial foi utilizada como ferramenta de apoio durante o desenvolvimento do projeto, contribuindo para:
+
+- Estruturação e implementação do código Java.
+- Desenvolvimento de funcionalidades com Spring Boot.
+- Criação e ajustes da interface React.
+- Análise e correção de erros.
+- Organização da documentação.
+- Revisão de regras de negócio e testes.
+
+Todas as sugestões foram analisadas pelos integrantes, que permaneceram responsáveis pela validação e decisão final sobre as alterações incorporadas.
+
+As interações relevantes com IA foram registradas em documento próprio, contendo o problema identificado, ferramenta utilizada, prompt, proposta recebida, decisão do grupo, alterações realizadas e forma de verificação.
+
+**Observação:** o sistema não possui integração automática com APIs de IA. As sugestões são geradas externamente e registradas manualmente pelos usuários.
+
+## 10. Dados de demonstração
+
+Para apresentar e validar as funcionalidades do sistema, são utilizados dados fictícios, incluindo:
+
+- Usuários de demonstração.
+- Projetos.
+- Histórias de usuário.
+- Cenários BDD.
+- Passos Gherkin.
+- Sugestões de IA.
+
+Esses dados permitem demonstrar o fluxo completo da aplicação sem expor informações pessoais ou credenciais.
+
+## 11. Considerações finais
 
 O Estúdio BDD aplica conceitos de Programação Orientada a Objetos, arquitetura em camadas, desenvolvimento de APIs REST, persistência de dados e documentação de requisitos com BDD.
 
