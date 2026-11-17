@@ -91,9 +91,9 @@ Os relacionamentos organizam projetos, histórias, cenários, passos e sugestõe
 Na raiz do projeto, configure as variáveis de ambiente:
 
 ```powershell
-$env:DB_URL = "SUA_URL_JDBC"
-$env:DB_USERNAME = "SEU_USUARIO"
-$env:DB_PASSWORD = "SUA_SENHA"
+$env:DB_URL = "jdbc:postgresql://SEU_HOST:5432/postgres?sslmode=require"
+$env:DB_USERNAME = "postgres"
+$env:DB_PASSWORD = "BancoBDD*123"
 ```
 
 Execute:
